@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>讯飞识别组数据管理平台</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="{{static_url('css/bootstrap.min.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="{{static_url('css/main.css')}}"/>
+    <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css">-->
+    <script src="{{static_url('js/jquery-3.2.1.js')}}"></script>
+    <script src="{{static_url('js/bootstrap.js')}}"></script>
+    <script src="{{static_url('js/myjs.js')}}"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" class="container-fluid">
+<!--导航栏-->
+<div id="myTopNavBar" class="row">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-main">
+        <div class="container">
+            <div class="nav-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand dropdown" href="#">
+                    <a class="dropdown-toggle btn btn-sm btn-info" data-toggle="dropdown">{{user}}<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a id="userInfo" href="#">个人信息</a></li>
+                        <li><a id="userModifyPassword" href="#">修改密码</a></li>
+                        <li class="divider"></li>
+                        <li><a id="userLogout" href="#">退出登录</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="myNavbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right navbar-color">
+                    <li>
+                        <a href="#tool">常用工具</a>
+                    </li>
+                    <li>
+                        <a href="#business">当前业务</a>
+                    </li>
+                    <li>
+                        <a href="#help">帮助</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!--主容器-->
+<div id="allContainer" class="row">
+    <div id="indexContainer">
+
+        <!--搜索栏-->
+        <div class="jumbotron text-center">
+            <h1>识别组数据管理平台</h1>
+            <p>让世界聆听我们的声音</p>
+            <form class="form-inline">
+                <input type="search" class="form-control" size="50" placeholder="文档、数据搜索">
+                <button type="button" class="btn btn-info">搜索</button>
+            </form>
+        </div>
+
+        <!--常用工具-->
+        <div id="tool" class="container-fluid main-container-fluid text-center">
+            <!--<h2>常用工具<span><a href="#" class="normal-font" title="查看更多工具">更多>></a></span></h2>-->
+            <a id="goToTools" href="/tools" class="a-black" title="查看更多工具">
+                <h2>常用工具</h2></a><br />
+            <h4>当前浏览最多的工具</h4>
+
+            <!--首页展示的三个工具-->
+            <div id="mainToolList" class="row">
+
+            </div>
+
+{#            <a href="#" class="a-black" title="查看相关资源">#}
+{#                <h2>相关资源</h2></a>#}
+{#            <p><strong>链接:</strong>#}
+{#                <a href="/tools">资源库</a>#}
+{#            </p>#}
+{#            <p><strong>最后更新日期:</strong> 2017年 08月 29日</p>#}
+        </div>
+
+        <div id="business" class="container-fluid main-container-fluid text-center bg-grey">
+            <a href="/business" class="a-black" title="查看更多业务">
+                <h2>当前业务</h2></a><br />
+            <h4>业务概述，业务概述，业务概述，业务概述。</h4>
+            <div id="mainBusinessContainer" class="row">
+                <div class="main-business-item col-sm-4">
+                    <a href="#" class="a-black">
+                        <span class="glyphicon glyphicon-off logo-small"></span>
+                        <h4>业务1</h4>
+                        <p>业务描述，业务描述，业务描述，业务描述。</p>
+                    </a>
+                </div>
+                <div class="main-business-item col-sm-4">
+                    <a href="#" class="a-black">
+                        <span class="glyphicon glyphicon-heart logo-small"></span>
+                        <h4>业务2</h4>
+                        <p>业务描述，业务描述，业务描述，业务描述。</p>
+                    </a>
+                </div>
+                <div class="main-business-item col-sm-4">
+                    <a href="#" class="a-black">
+                        <span class="glyphicon glyphicon-lock logo-small"></span>
+                        <h4>业务3</h4>
+                        <p>业务描述，业务描述，业务描述，业务描述。</p>
+                    </a>
+                </div>
+
+                <div class="main-business-item col-sm-4">
+                    <a href="#" class="a-black">
+                        <span class="glyphicon glyphicon-leaf logo-small"></span>
+                        <h4>业务4</h4>
+                        <p>业务描述，业务描述，业务描述，业务描述。</p>
+                    </a>
+                </div>
+                <div class="main-business-item col-sm-4">
+                    <a href="#" class="a-black">
+                        <span class="glyphicon glyphicon-certificate logo-small"></span>
+                        <h4>业务5</h4>
+                        <p>业务描述，业务描述，业务描述，业务描述。</p>
+                    </a>
+                </div>
+                <div class="main-business-item col-sm-4">
+                    <a href="#" class="a-black">
+                        <span class="glyphicon glyphicon-wrench logo-small"></span>
+                        <h4>业务6</h4>
+                        <p>业务描述，业务描述，业务描述，业务描述。</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id=help class="container-fluid main-container-fluid bg-grey">
+            <a href="#" class="a-black" title="查看更多帮助">
+                <h2>帮助</h2></a>
+            <h4>这里为你提供一些答案。</h4>
+            <ul class="list-group">
+                <a href="#" class="a-black list-group-item">使用相关<span class="badge pull-right">43</span></a>
+                <a href="#" class="a-black list-group-item">模型相关<span class="badge pull-right">213</span></a>
+                <a href="#" class="a-black list-group-item">业务相关<span class="badge pull-right">32</span></a>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<footer class="row container-fluid main-container-fluid text-center">
+    <a href="#myPage" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <div class="row text-center">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-2">
+            <a href="#" title="查看隐私政策">隐私政策</a>
+        </div>
+        <div class="col-sm-2">
+            <a href="#" title="查看平台信息">平台信息</a>
+        </div>
+        <div class="col-sm-2">
+            <a href="#" title="查看免责声明">免责声明</a>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+    <br>
+    <p>Presented by
+        <a href="http://www.iflytek.com" title="ifytek">www.iflytek.com</a>
+    </p>
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*#allContainer{*/
+/*padding-top: 100px;*/
+/*}*/
+
+.clearfix {
+    overflow: auto;
+    _height: 1%
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.jumbotron {
+    background-color: deepskyblue;
+    color: white;
+    padding: 100px 25px;
+}
+
+.jumbotron-small {
+    background-color: deepskyblue;
+    color: white;
+    padding: 50px 25px;
+}
+
+.navbar-main {
+    margin-bottom: 0;
+    background-color: deepskyblue;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar-toggle {
+    border-color: transparent !important;
+}
+
+.navbar-toggle:focus,
+.navbar-toggle:hover {
+    background-color: lightskyblue !important;
+}
+
+.icon-bar {
+    background-color: white !important;
+}
+
+.navbar-color li a,
+.navbar-color {
+    color: white !important;
+}
+
+.navbar-brand {
+    color: #333333;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: deepskyblue !important;
+    background-color: white !important;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.main-container-fluid {
+    padding: 30px 50px 30px 50px;
+}
+
+.main-tool-description {
+    height: 90px;
+}
+
+.logo {
+    color: deepskyblue;
+    font-size: 160px;
+}
+
+.logo-small {
+    color: deepskyblue;
+    font-size: 30px;
+}
+
+.main-row {
+    margin-bottom: 20px;
+}
+
+.a-black {
+    color: black;
+}
+
+.normal-font {
+    font-size: 12px
+}
+
+.fill-parent {
+    width: 100%;
+}
+
+.home-logo {
+    color: white;
+    font-size: 20px;
+}
+
+.home-bar {
+    padding: 10px;
+    background-color: deepskyblue;
+}
+
+.article-page-bg {
+    background-color: deepskyblue;
+    padding: 50px 100px 10px 100px;
+}
+
+.article-page-main {
+    padding: 20px 40px 40px 50px;
+}
+
+.article-page-aside {
+    padding: 10px 50px 10px 40px;
+}
+
+.article-nav {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+    border-top: lightblue solid 1px;
+    border-bottom: lightblue solid 1px;
+}
+
+.article-nav li a {
+    color: dimgrey;
+}
+
+.article-page-site-description {
+    color: dimgrey;
+}
+
+.write-article {
+    background-color: whitesmoke;
+    margin: 20px 50px 20px 50px;
+    padding: 30px !important;
+}
+
+.write-article-header {
+    padding: 0 30px 10px;
+}
+
+.btn-submit-article {
+    margin: 15px;
+}
+
+.article-info-input {
+    height: 34px !important;
+}
+
+body .article-item {
+    padding: .3em .6em .2em;
+}
+
+.article-img {
+    max-width: 100%;
+}
+
+.blue-bg {
+    color: white;
+    padding: 100px 25px;
+    background-color: deepskyblue;
+}
+
+.user-menu {
+    color: #333;
+}
+
+.blue-bg-white-font, .blue-bg-white-font a {
+    background-color: deepskyblue;
+    color: white;
+}
+
+.user-btn {
+    color: white !important;
+}
+
+.blue-color {
+    background-color: deepskyblue;
+}
+
+.business-bg {
+    background-color: deepskyblue;
+    padding: 60px 30px 30px 30px;
+}
+
+.navbar-other {
+    background-color: deepskyblue;
+    color: white !important;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.navbar-other > div > a > h4 {
+    color: white !important;
+}
+
+.subservice {
+    margin-bottom: 15px;
+}
+
+.business-content {
+    min-height: 400px !important;
+}
+
+.main-business-item {
+    margin-bottom: 20px;
+}
+
+.navbar-container {
+    background-color: deepskyblue;
+}
+
+.navbar-container > li > a {
+    color: white;
+}
+
+body .navbar {
+    border: none;
+    margin: 0 0 0 0;
+}
+
+#editor {
+    margin-top: 15px;
+}
+
+.tools-list-bg {
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    margin: 0 30px 0 30px;
+    padding: 30px 30px 10px 30px;
+    background-color: whitesmoke;
+}
+
+#addArticleBodyContainer {
+    padding: 30px 80px 30px 80px;
+}
+
+#businessSearchBar {
+    margin-bottom: 20px;
+}
+
+#subServiceDetailContainer {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#businessModalDownloadPath {
+    width: 300px;
+    margin-right: 7px;
+}
+
+#businessModalDownloadBtnLink {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#fileContentModalFooter {
+    /*margin-right: 5px;*/
+    /*margin-left: 5px;*/
+}
