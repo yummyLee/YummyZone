@@ -559,7 +559,7 @@ function openFileViaAJAX(file_name, offset) {
             var file_content = eval("(" + x.responseText + ")");
             for (var line in file_content) {
                 var p = document.createElement("p");
-                if (file_content[line] === "Iflytek-Dir-Sign") {
+                if (file_content[line] === "yummylee.life-Dir-Sign") {
                     $("#businessModalDownloadBtnLink").addClass("disabled");
                 } else {
                     p.textContent += file_content[line];

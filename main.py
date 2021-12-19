@@ -297,7 +297,7 @@ class OpenFileHandler(tornado.web.RequestHandler):
                 file_name = self.get_argument("file_name", None)
                 if os.path.isdir(file_name):
                     file_list = os.listdir(file_name)
-                    file_list.append("Iflytek-Dir-Sign")
+                    file_list.append("yummylee.life-Dir-Sign")
                     self.write(json.dumps(file_list))
                     return
                 if file_name is not None:
